@@ -35,7 +35,7 @@ const mailTransport = nodemailer.createTransport('smtps://<user>%40gmail.com:<pa
 const serviceAccount = require('../placeholders/service-account.json');
 firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
-  databaseURL: 'https://<PROJECT_ID>.firebaseio.com'
+  databaseURL: 'https://ai-matrix-engine.firebaseio.com'
 });
 // [END initialize]
 

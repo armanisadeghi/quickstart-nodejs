@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "compile": "cp ../tsconfig.template.json ./tsconfig.json && tsc",
-    "demo": "./node_modules/.bin/webpack --config webpack.config.js && node app.js"
+    "demo": "npx webpack --config webpack.config.js && node app.js"
   },
   "author": "bojeil-google",
   "license": "Apache License Version 2.0",

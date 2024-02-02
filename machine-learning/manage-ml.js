@@ -18,7 +18,7 @@
 const admin = require("firebase-admin");
 
 // TODO(user): Configure for your project. (See README.md.)
-const SERVICE_ACCOUNT_KEY = '/path/to/your/service_account_key.json';
+const SERVICE_ACCOUNT_KEY = 'placeholders/service-account.json';
 const STORAGE_BUCKET = 'your-storage-bucket';
 
 // Initialize the Firebase Admin SDK.
